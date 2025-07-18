@@ -233,6 +233,63 @@ img{
 
 
 
+/* table style */
+.opinions-section{
+    max-width:80%;
+    margin:80px auto ;
+}
+
+.opinions{
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 24px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+
+    
+}
+table th{
+    background-color: #C6E4D6;
+}
+
+table td , table th{
+    border: 1px solid #0E0E0E15;
+    padding: 10px 20px;
+}
+
+table th{
+    font-size: 1.25rem;
+}
+
+table td, table select{
+    font-size: 1rem;
+}
+.questions{
+    text-align: start;
+    border-right: none;
+}
+.opinion-th{
+    border-left: none;
+}
+
+
+table .select-option {
+    text-align: center;
+    
+}
+.select-option select{
+    background-color: #09A15C15;
+    padding: 12.5px 16px;
+        border-radius: 4px;
+    
+}
+
+
 
 
 
