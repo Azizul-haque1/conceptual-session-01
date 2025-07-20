@@ -401,13 +401,18 @@ table .select-option {
 
 .amount{
     width: 800px;
-    margin: 32px auto 0 auto;
+    margin: 32px auto 32px auto;
     padding: 20px 40px;
     background-color: white;
     border-radius: 16px;
     color: #0E0E0E15;
 }
 
+.donate-btn{
+    margin-top: 32px;
+    width: 150px;
+
+}
 
 
 /* subscribe  section  style */
