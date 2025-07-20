@@ -2,8 +2,10 @@
     padding: 0;
     margin:0;
 }
+
 :root{
     --primaryColor:#006A50;
+    --text-gray-light:#0E0E0E70
 }
 
 
@@ -11,11 +13,16 @@ body{
     min-width: 100vh;
     background-color: #f5f5f5;
 }
-
 section{
     max-width: 80%;
     margin: 80px auto;
 }
+
+main  > section{
+    max-width: 80%;
+    margin: 80px auto;
+}
+
 
 img{
     width: 100%;
@@ -111,10 +118,6 @@ img{
     font-weight: bold;
     margin-bottom: 24px;
     
-}
-
-.hero-content {
-
 }
 
 
@@ -234,10 +237,11 @@ img{
 
 
 /* table style */
-.opinions-section{
-    max-width:80%;
-    margin:80px auto ;
+.opinion-section h2{
+    font-size: 2.5rem;
+
 }
+
 
 .opinions{
     background-color: white;
@@ -290,6 +294,79 @@ table .select-option {
 }
 
 
+
+/* recent news section stylel  */
+
+.recent-news-section > h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.recent-news-section > p{
+    margin-bottom: 12px;
+}
+
+
+
+.recent-news-section > p{
+    color: var(--text-gray-light);
+
+
+}
+
+.news{
+    margin-top: 20px;
+    background-color: white;
+    border-radius:24px ;
+    display: flex;
+    padding: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-image{
+    background-size: contain;
+    width: 30%;
+}
+.news-image img{
+    border-radius: 24px;
+
+}
+
+.news-content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.news-content h3{
+    font-size: 2rem;
+}
+.news-content p{
+    color: var(--text-gray-light);
+}
+.news-content img{
+    width: 20%;
+}
+
+.btn{
+    background-color: #006A50;
+    padding: 13px 26px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: background-color 0.5s ease, border 0.5s ease, color 0.5s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid #006A50;
+    color: #006A50;
+}
+
+.flex-row{
+    flex-direction: row-reverse;
+}
 
 
 
